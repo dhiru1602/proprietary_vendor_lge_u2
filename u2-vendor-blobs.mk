@@ -20,11 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/u2/proprietary/etc/firmware/BCM4330B1_002.001.003.0750.0865.hcd:system/etc/firmware/BCM4330B1_002.001.003.0750.0865.hcd \
     vendor/lge/u2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/u2/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
-    vendor/lge/u2/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     vendor/lge/u2/proprietary/lib/libini.so:system/lib/libini.so \
     vendor/lge/u2/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
-    vendor/lge/u2/proprietary/lib/libhdcp.so:system/lib/libhdcp.so \
-    vendor/lge/u2/proprietary/lib/liblgehdmi.so:system/lib/liblgehdmi.so \
     vendor/lge/u2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/u2/proprietary/vendor/lib/libPVRScopeServices_SGX540_120.so:system/vendor/lib/libPVRScopeServices_SGX540_120.so \
     vendor/lge/u2/proprietary/vendor/lib/liblvverx.so:system/vendor/lib/liblvverx.so \
@@ -45,6 +42,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/u2/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/lge/u2/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
     vendor/lge/u2/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
-    vendor/lge/u2/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/u2/proprietary/bin/glgps:system/bin/glgps \
     vendor/lge/u2/proprietary/bin/rild:system/bin/rild

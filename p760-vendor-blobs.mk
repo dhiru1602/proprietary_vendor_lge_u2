@@ -15,4 +15,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/u2/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/u2/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
-    vendor/lge/u2/proprietary/vendor/firmware/ducati-m3_u2.bin:system/vendor/firmware/ducati-m3.bin
+    vendor/lge/u2/proprietary/vendor/firmware/ducati-m3_u2.bin:system/vendor/firmware/ducati-m3.bin \
+    vendor/lge/u2/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
+    vendor/lge/u2/proprietary/bin/sensord:system/bin/sensord
